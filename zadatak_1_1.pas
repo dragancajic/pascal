@@ -11,3 +11,8 @@ begin
 	writeln('Zbir brojeva ', a, ' i ', b, ' je ', a+b, '.');
 	readln();
 end.
+
+{
+	zadatak_1_1, Pascal - rextester
+	https://rextester.com/XGRVH28067
+}
