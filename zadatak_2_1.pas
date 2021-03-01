@@ -22,6 +22,7 @@ end.
 
 {
 	zadatak_2_1, Pascal - rextester
-	http://rextester.com/XNG90120
-	http://rextester.com/GPM38686
+	https://rextester.com/XNG90120
+	https://rextester.com/GPM38686
+	https://rextester.com/URYW39018
 }

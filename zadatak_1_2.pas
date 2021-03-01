@@ -15,5 +15,5 @@ end.
 
 {
 	zadatak_1_2, Pascal - rextester
-	http://rextester.com/JMXGA21101
+	https://rextester.com/JMXGA21101
 }
