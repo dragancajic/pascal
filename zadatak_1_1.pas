@@ -9,7 +9,7 @@ begin
 	readln(a, b);
 	//writeln('Zbir brojeva je: ', a+b);
 	writeln('Zbir brojeva ', a, ' i ', b, ' je ', a+b, '.');
-	readln();
+	readln(); // potrebno staviti prilikom rada u Dev-Pascal v1.9.2!
 end.
 
 {

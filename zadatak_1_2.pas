@@ -10,7 +10,7 @@ begin
 	//writeln('Povrsina pravougaonika je ', a*b);
 	writeln('Za stranice ', a, ' i ', b, ' obim pravougaonika je ', 2*(a+b), '.');
 	writeln('Za stranice ', a, ' i ', b, ' povrsina pravougaonika je ', a*b, '.');
-	readln();
+	readln(); // potrebno staviti prilikom rada u Dev-Pascal v1.9.2!
 end.
 
 {

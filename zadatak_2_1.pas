@@ -17,7 +17,7 @@ begin
 	
 	if a = 0 then
 		writeln('Nula je neutralan broj, niti je pozitivan niti negativan!');
-	readln();
+	readln(); // potrebno staviti prilikom rada u Dev-Pascal v1.9.2!
 end.
 
 {
