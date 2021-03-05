@@ -1,4 +1,4 @@
-// Program sabira odabrani broj proizvoljno unesenih sabirka.
+// Program sabira odabrani broj proizvoljno unesenih sabiraka.
 
 PROGRAM saberi;
 
