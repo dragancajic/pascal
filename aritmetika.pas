@@ -39,7 +39,7 @@ BEGIN
 
 	// B1 -- ispis u jednom redu
 	IF b = 0 THEN
-		writeln('Dijeljenje nulom nije dozvoljeno!')
+		write('Dijeljenje nulom nije dozvoljeno!')
 	ELSE
 		write((a+b), BLANK_CHARACTER, a-b, BLANK_CHARACTER, a*b,
 			BLANK_CHARACTER, a div b, BLANK_CHARACTER, a mod b);
