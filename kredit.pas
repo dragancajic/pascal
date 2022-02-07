@@ -11,7 +11,7 @@ VAR
 	kamata, { kamata u procentu }
 	decimalno_kamata, { KAMATA DECIMALNO }
 	iznos_kamate, { IZNOS KAMATE }
-	total: real; { UKUPAN IZNOS PLACANJA }
+	total : real; { UKUPAN IZNOS PLACANJA }
 BEGIN
 	// unos podataka
 	write('iznos kredita? ');
