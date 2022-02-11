@@ -41,7 +41,7 @@ BEGIN
 	writeln('~- ~- ~- ~- ~- ~- ~- ~- ~- ~-'); { malo ukra$a(vanja) :-) }
 	writeln; // prazna linija
 
-	{ ISPIS REZULTATA OBRADE / najmanji element niza i njegov indeks }
+	{ ISPIS REZULTATA OBRADE / aritmeticka sredina svih elemenata niza }
 	writeln('Suma elemenata niza je: ', suma);
 	writeln('Aritmeticka sredina je: ', asr:5:2);
 	readln;
