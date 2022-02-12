@@ -1,7 +1,7 @@
-// Primjer 03. Nadji aritmeticku sredinu svih clanova niza.
+// Primjer 05. Ispisi aritmeticku sredinu svih elemenata niza i elemente manje od nje.
 
 { ZAGLAVLJE PROGRAMA -- naziv programa i fajla u kojem je smjesten }
-PROGRAM primjer_03;
+PROGRAM primjer_05;
 
 { DEKLARACIJA KONSTANTI I PROMJENLJIVIH }
 CONST
@@ -9,7 +9,7 @@ CONST
 VAR
 	i,                             // pomocna varijabla
 	suma : integer;                // suma elemenata niza
-    asr : real;                    // aritmeticka sredina
+	asr : real;                    // aritmeticka sredina
 	niz : ARRAY [1..n] OF integer; // deklaracija niza
 
 { pocetak tijela programa }
@@ -36,18 +36,30 @@ BEGIN
 		suma := suma + niz[i];
 	
 	asr := suma * 1.0 / n;
-
+	
 	writeln; // prazna linija
 	writeln('~- ~- ~- ~- ~- ~- ~- ~- ~- ~-'); { malo ukra$a(vanja) :-) }
 	writeln; // prazna linija
 
-	{ ISPIS REZULTATA OBRADE / aritmeticka sredina svih elemenata niza }
+	{ ISPIS REZULTATA OBRADE / elementi manji od aritmeticke sredine }
 	writeln('Suma elemenata niza je: ', suma);
 	writeln('Aritmeticka sredina je: ', asr:5:2);
+
+	writeln; // prazna linija
+	writeln('`` `` `` `` `` `` `` `` `` ``'); { malo ukra$a(vanja) :-) }
+	writeln; // prazna linija
+
+	writeln('Elementi manji od aritmeticke sredine su:');
+	FOR i := 1 TO n DO
+		BEGIN
+			IF niz[i] < asr THEN
+				writeln('niz[', i, '] = ', niz[i]);
+		END;
+
 	readln;
 END.
 
 {
-	primjer_03, Pascal - rextester
-	https://rextester.com/QSWCI3249
+	primjer_05, Pascal - rextester
+	https://rextester.com/YGP3778
 }
