@@ -1,4 +1,4 @@
-// Primjer 01. U nizu od n clanova nadji i ispisi najveci clan.
+// Primjer 01a. U nizu od n clanova nadji i ispisi najveci clan.
 
 { ZAGLAVLJE PROGRAMA -- naziv programa i fajla u kojem je smjesten }
 PROGRAM primjer_01a;
