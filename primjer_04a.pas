@@ -1,4 +1,4 @@
-// Primjer 04. Nadji sumu reciprocnih vrijednosti clanova niza.
+// Primjer 04a. Nadji sumu reciprocnih vrijednosti clanova niza.
 
 { ZAGLAVLJE PROGRAMA -- naziv programa i fajla u kojem je smjesten }
 PROGRAM primjer_04a;
